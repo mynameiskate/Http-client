@@ -1,0 +1,34 @@
+﻿<Window x:Class="HttpProtocol.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HttpProtocol"
+        mc:Ignorable="d"
+        xmlns:src="clr-namespace:HttpProtocol" 
+        Title="HTTP protocol manager" Height="500" Width="900" Background="PaleTurquoise">
+    <Grid>
+        <ComboBox HorizontalAlignment="Left" Margin="120,31,0,0" VerticalAlignment="Top" Width="74" Height="28" Name="methodBox"
+                   FontFamily="Futura" FontSize="20" FontWeight="Light" Background="MintCream" DataContext="MethodType">
+            <TextBlock><Run Text="GET"/></TextBlock>
+            <TextBlock><Run Text="POST"/></TextBlock>
+            <TextBlock><Run Text="HEAD"/></TextBlock>
+        </ComboBox>
+        <Label Content="Method" HorizontalAlignment="Left" Margin="25,25,0,0" VerticalAlignment="Top" Width="90"
+               FontFamily="Futura" FontSize="20" FontWeight="Medium"/>
+        <TextBox Name="uriTextBox" HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="593" 
+                 Margin="209,31,0,0" FontFamily="Futura" FontSize="16" FontWeight="Light" HorizontalScrollBarVisibility="Auto"/>
+        <Button Content="Go" HorizontalAlignment="Left" VerticalAlignment="Top" Width="62" Margin="807,31,0,0" Height="28"
+                Name="startBtn" Background="MintCream" FontFamily="Futura" FontSize="20" FontWeight="Light" Click="startBtn_Click" RenderTransformOrigin="1.358,0.391"/>
+        <WebBrowser HorizontalAlignment="Left" Height="347" VerticalAlignment="Top" Width="510" Margin="10,97,0,0"
+                    Name="requestWebBrowser" SelectiveScrollingGrid.SelectiveScrollingOrientation="Vertical"
+                    src:WebBrowserHelper.Body="{Binding Message}" Navigating="requestWebBrowser_Navigating"
+                    />
+        <TextBox HorizontalAlignment="Left" Height="347" TextWrapping="Wrap" Text="{Binding Path=Status, Mode=TwoWay}" 
+                 VerticalAlignment="Top"
+                 Name="statusTB" Width="329" Margin="540,97,0,0" Background="MintCream" FontFamily="Futura" 
+                 FontSize="18" FontWeight="Light" VerticalScrollBarVisibility="Auto" />
+        <TextBox x:Name="dataTextBox" HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="593" 
+            Margin="209,64,0,0" FontFamily="Futura" FontSize="16" FontWeight="Light" HorizontalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>

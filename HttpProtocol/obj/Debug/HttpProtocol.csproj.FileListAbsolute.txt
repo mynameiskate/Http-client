@@ -1,0 +1,16 @@
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\bin\Debug\HttpProtocol.exe.config
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\bin\Debug\HttpProtocol.exe
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\bin\Debug\HttpProtocol.pdb
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol.csprojResolveAssemblyReference.cache
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\MainWindow.g.cs
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\App.g.cs
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol_MarkupCompile.cache
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol_MarkupCompile.lref
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\MainWindow.baml
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol.g.resources
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol.Properties.Resources.resources
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol.csproj.GenerateResource.cache
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol.csproj.CoreCompileInputs.cache
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol.exe
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\HttpProtocol.pdb
+c:\users\kater\documents\visual studio 2017\Projects\HttpProtocol\HttpProtocol\obj\Debug\GeneratedInternalTypeHelper.g.cs
